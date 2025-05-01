@@ -1,0 +1,130 @@
+body {
+    width: 98%;
+    background-color: white;
+    display: inline-block;
+    vertical-align: top;
+    font-family: arial, sans-serif;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+main {
+    width: 90%;
+    float: right;
+
+}
+
+aside {
+    width: 6%;
+    height: 100vh;
+    background-color: #E5E4E2;
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+
+body>aside>ul>li>img {
+    width: 80%;
+    margin-left: -40%;
+    padding: 7px;
+}
+
+div {
+    width: 96%;
+    padding-left: 10px;
+    position: relative;
+}
+
+input {
+    background-color: #E5E4E2;
+    width: 87%;
+    margin-right: 3em;
+    padding: 10px;
+    border-color: transparent;
+    border-radius: 5px;
+}
+
+
+header {
+    display: block;
+    width: 100%;
+    position: relative;
+    padding: 15px;
+    text-align: right;
+}
+
+header>img {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-bottom: -10px;
+    border: 1px solid black;
+}
+
+ul {
+    list-style-type: none;
+}
+
+nav>ul>li {
+    display: inline-block;
+    margin: 10px;
+    font-weight: 0.5px dotted;
+    color: black;
+    padding: 10px;
+}
+
+
+.contenedor {
+    width: 100%;
+    position: relative;
+    padding: 10px 5px 5px 10px;
+}
+
+.columna {
+    display: inline-block;
+    width: 30%;
+    margin: 0 0.8%;
+    vertical-align: top;
+}
+.caja {
+    width: 100%;
+    margin-bottom: 10px;
+    background-color: lightblue;
+    padding: 10px;
+    position: relative;
+}
+
+.caja>img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+}
+
+
+body>main>nav>a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 5px;
+}
+
+a:hover {
+    text-decoration: none;
+    background-color: #E5E4E2;
+    color: black;
+    padding: 10px;
+}
+
+nav>ul>li:first-of-type {
+    border-bottom: 3px solid black;
+}
+
+
+a {
+    text-decoration: none;
+    color: black;
+}
